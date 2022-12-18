@@ -37,6 +37,14 @@ It is created using the **C programming Language** and it can do many functional
  - **TEAM_MEMBERS** -> List of contributors to this repository
  - **man_1_simple_shell** -> Manual page for the simple_shell
  - **shell.h** -> Header file
+**linkpath.c**
+ - **_getenv** -> returns the value of a global variable
+ - **add_node_end** -> adds a node in a singly linked list
+ - **linkpath** -> creates a singly linked list for PATH directories
+ - **_which** -> finds the pathname of a command
+ - **free_list** -> frees the linked list of PATH value
+ - **checkbuild.c**
+ - **checkbuild** -> checks if a command is a build-in command
 ****
 
 ## List of allowed functions and system calls for this project
