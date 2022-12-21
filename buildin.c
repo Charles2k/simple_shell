@@ -50,6 +50,7 @@ int _atoi(char *s)
 }
 
 /**
+ *
  * env - prints the current environment
  * @arv: array of arguments
  */
@@ -67,6 +68,7 @@ void env(char **arv __attribute__ ((unused)))
 }
 
 /**
+ *
  * _setenv - Initialize a new environment variable, or modify an existing one
  * @arv: array of entered words
  */

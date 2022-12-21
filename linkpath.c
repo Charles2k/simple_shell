@@ -6,6 +6,7 @@
  * @name: name of the global variable
  * Return: string of value
  */
+
 char *_getenv(const char *name)
 {
 	int i, j;
@@ -41,6 +42,7 @@ char *_getenv(const char *name)
  * @head: pointer to pointer to our linked list
  * @str: pointer to string in previous first node
  * Return: address of the new element/node
+ *
  */
 
 list_path *add_node_end(list_path **head, char *str)

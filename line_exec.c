@@ -50,6 +50,7 @@ char **splitstring(char *str, const char *delim)
 /**
  * execute - executes a command
  * @argv: array of arguments
+ *
  */
 
 void execute(char **argv)
@@ -79,6 +80,7 @@ void execute(char **argv)
  * @old_size: old size of previous pointer
  * @new_size: new size for our pointer
  * Return: New resized Pointer
+ *
  */
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
