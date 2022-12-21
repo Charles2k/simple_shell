@@ -5,6 +5,7 @@
  * contains a copy of the string given as a parameter
  * @str: pointer to a string
  * Return: pointer to a string
+ *
  */
 char *_strdup(char *str)
 {
@@ -38,6 +39,7 @@ char *_strdup(char *str)
  * @sep: second string
  * @value: Third string
  * Return: pointer to the new string
+ *
  */
 char *concat_all(char *name, char *sep, char *value)
 {
@@ -70,6 +72,7 @@ char *concat_all(char *name, char *sep, char *value)
 }
 
 /**
+ *
  * _strlen - it gives the length of a string
  * @s: pointer to the string
  * Return: the length of string
