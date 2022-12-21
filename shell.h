@@ -18,6 +18,16 @@ int _strlen(char *s);
 char *_strdup(char *str);
 char *concat_all(char *name, char *sep, char *value);
 
+
+/* memory.c */
+int bfree(void **);
+
+
+
+
+
+
+
 char **splitstring(char *str, const char *delim);
 void execute(char **argv);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
